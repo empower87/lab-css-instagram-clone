@@ -17,7 +17,7 @@ header {
 header {
   height: 500px;
 }
-.middle {
+main {
   display: flex;
   justify-content: space-evenly;
   margin-top: 100px
@@ -36,7 +36,7 @@ header {
 .logo-login-container > img {
   flex: 2.5;
 }
-.login-container {
+.logo-login-container > div {
   flex: 1;
   padding: 25px 0px 25px 0px;
   justify-content: flex-end;
@@ -55,7 +55,7 @@ button {
 button > img {
   margin-right: 5px;
 }
-.details-container {
+.frame {
   display: flex;
   flex-direction: column;
   background-image: url("/images/frame.png");
@@ -64,7 +64,7 @@ button > img {
   height: 420px;
   align-items: center;
 }
-.details-container > div {
+.frame > div {
   width: 85%;
   margin-top: 10px;
   height: 420px;
